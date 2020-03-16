@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="149dbdb8-6870-424b-b8dc-439ea3866d95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/static/img/project1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/static/img/project1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +44,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZCvLKqww6DM3WrKrkOQaIpfTdH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -94,22 +95,29 @@
       <option name="presentableId" value="Default" />
       <updated>1584355833237</updated>
       <workItem from="1584355840056" duration="14546000" />
-      <workItem from="1584384827522" duration="2597000" />
+      <workItem from="1584384827522" duration="4161000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="185" key="#Notifications" timestamp="1584390269657">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="556" y="185" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1584390269657" />
     <state width="235" height="500" key="HiddenNamespacesPopup" timestamp="1584361542072">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="235" height="500" key="HiddenNamespacesPopup/0.0.1920.1050/1920.0.1024.768@0.0.1920.1050" timestamp="1584361542072" />
-    <state x="639" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1584384827685">
+    <state x="639" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1584390488289">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="639" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584384827685" />
+    <state x="639" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584390488289" />
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1584385196680">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

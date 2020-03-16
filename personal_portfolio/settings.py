@@ -53,6 +53,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+        #  Own middleware #
+    'projects.middleware.SampleMiddleware'
 ]
 
 ROOT_URLCONF = 'personal_portfolio.urls'

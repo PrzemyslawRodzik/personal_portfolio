@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149dbdb8-6870-424b-b8dc-439ea3866d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -101,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584355833237</updated>
       <workItem from="1584355840056" duration="14546000" />
+      <workItem from="1584384827522" duration="2597000" />
     </task>
     <servers />
   </component>
@@ -112,9 +106,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="235" height="500" key="HiddenNamespacesPopup/0.0.1920.1050/1920.0.1024.768@0.0.1920.1050" timestamp="1584361542072" />
-    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1584366092792">
+    <state x="639" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1584384827685">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="639" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584384827685" />
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1584385196680">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1024.768@0.0.1920.1050" timestamp="1584366092792" />
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584385196680" />
   </component>
 </project>

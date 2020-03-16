@@ -41,9 +41,7 @@ def project_index(request):
 
     user_agent = parse(request.META['HTTP_USER_AGENT'])
     print(request.META['HTTP_USER_AGENT'])
-    print(request.META['REMOTE_ADDR'])
-    print(request.META['REMOTE_HOST'])
-    #print(request.META['REMOTE_USER'])
+
 
     return render(request, 'projects/index.html', {'projects': projects, 'user_agent': user_agent})
 

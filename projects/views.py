@@ -8,9 +8,9 @@ from user_agents import parse
 def dodaj_bazy_view(request):
 
     project1 = models.Project(
-        title='My 8 Project',
-        description='8 web development project.',
-        technology='Laravel',
+        title='My 9 Project',
+        description='9 web development project.',
+        technology='Django',
         image='img/project1.jpg',)
 
 
@@ -51,6 +51,22 @@ def project_detail(request, id):
     print(selected_project.image)
 
     return render(request, 'projects/detail.html', {'selected_project': selected_project})
+
+
+def create_view(request):
+    pass
+
+
+def edit_view(request, id):
+    pass
+
+
+def update_view(request, id):
+    pass
+
+
+def destroy_view(request, id):
+    pass
 
 
 

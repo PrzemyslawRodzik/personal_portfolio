@@ -17,11 +17,15 @@
                    class="btn btn-primary">
                     Read More
                 </a>
+                <a href="{% url 'edit_view' project.id %}" class="btn btn-warning" id = '{{project.id}}'>edit</a>
+                <a href="{% url 'destroy_view' project.id %}" class="btn btn-danger" id="{{ project.id }}">delete</a>
             </div>
         </div>
     </div>
 
     {% endfor %}
+
+
 {{ user_agent.device.family }} <br>
 {{ user_agent.browser }} <br>
 {{ user_agent.os.family   }} <br>

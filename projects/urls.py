@@ -17,5 +17,5 @@ urlpatterns = [
     path('create', views.create_view, name='create_view'),
     path('edit/<int:id>', views.edit_view, name='edit_view'),
     path('update/<int:id>', views.update_view, name='update_view'),
-    path('delete/<int:id>', views.destroy_view, name='destroy_view'),
+    path('delete/<int:project_id>', views.destroy_view, name='destroy_view'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

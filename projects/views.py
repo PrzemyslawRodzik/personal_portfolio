@@ -1,8 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from projects import models
 from user_agents import parse
 
 # Create your views here.
+from projects.forms import ProjectForm
 
 
 def dodaj_bazy_view(request):
@@ -54,7 +55,17 @@ def project_detail(request, id):
 
 
 def create_view(request):
-    pass
+    if request.method == "POST":
+        form = ProjectForm(request.POST)
+        if form.is_valid():
+            try:
+                form.save()
+                return redirect('/projects')
+            except:
+                pass
+    else:
+        form = ProjectForm()
+    return render(request, 'projects/index.html', {'form': form})
 
 
 def edit_view(request, id):

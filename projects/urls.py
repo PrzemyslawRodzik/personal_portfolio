@@ -2,6 +2,8 @@
 
 from django.urls import path
 from projects import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 
 urlpatterns = [
@@ -12,8 +14,8 @@ urlpatterns = [
 
             # CRUD #
 
-    path('create', views.create_view),
-    path('edit/<int:id>', views.edit_view),
-    path('update/<int:id>', views.update_view),
-    path('delete/<int:id>', views.destroy_view),
-]
+    path('create', views.create_view, name='create_view'),
+    path('edit/<int:id>', views.edit_view, name='edit_view'),
+    path('update/<int:id>', views.update_view, name='update_view'),
+    path('delete/<int:id>', views.destroy_view, name='destroy_view'),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

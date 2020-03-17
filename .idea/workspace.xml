@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149dbdb8-6870-424b-b8dc-439ea3866d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/media/img/larevel_logo_VdYpHTk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/projects/create_project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/media/img/mms_20170220_171804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0007_auto_20200317_1643.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,7 @@
       <workItem from="1584355840056" duration="14546000" />
       <workItem from="1584384827522" duration="4161000" />
       <workItem from="1584390471090" duration="1702000" />
-      <workItem from="1584437112786" duration="19187000" />
+      <workItem from="1584437112786" duration="20062000" />
     </task>
     <servers />
   </component>
@@ -131,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="639" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584437165729" />
-    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1584450502055">
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1584459458008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1024.768@0.0.1920.1050" timestamp="1584366092792" />
-    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584450502055" />
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584459458008" />
   </component>
 </project>

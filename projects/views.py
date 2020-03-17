@@ -38,7 +38,7 @@ def dodaj_bazy_view(request):
 
 
 def project_index(request):
-    projects = models.Project.objects.all().order_by('publication_date').reverse()
+    projects = models.Project.objects.all().order_by('created_at').reverse()
 
     user_agent = parse(request.META['HTTP_USER_AGENT'])
     print(request.META['HTTP_USER_AGENT'])

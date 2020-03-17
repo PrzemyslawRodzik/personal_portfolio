@@ -53,7 +53,7 @@ def project_detail(request, id):
 
 
 def create_view(request):
-    upload = ProjectForm()
+    blank_project_form = ProjectForm()
     if request.method == 'POST':
         upload = ProjectForm(request.POST, request.FILES)
         if upload.is_valid():
@@ -62,7 +62,7 @@ def create_view(request):
         else:
             return HttpResponse("""your form is wrong, reload on <a href = "{{ url : 'project_index'}}">reload</a>""")
     else:
-        return render(request, 'projects/upload_form.html', {'upload_form': upload})
+        return render(request, 'projects/create_project.html', {'upload_form': blank_project_form})
 
 
 def update_view(request, id):

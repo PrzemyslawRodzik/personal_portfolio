@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149dbdb8-6870-424b-b8dc-439ea3866d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/media/img/mms_20170220_171804.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/migrations/0007_auto_20200317_1643.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/media/img/IMG_20200205_132321_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/media/img/IMG_20200205_183023.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,7 @@
       <workItem from="1584355840056" duration="14546000" />
       <workItem from="1584384827522" duration="4161000" />
       <workItem from="1584390471090" duration="1702000" />
-      <workItem from="1584437112786" duration="20062000" />
+      <workItem from="1584437112786" duration="20719000" />
     </task>
     <servers />
   </component>

@@ -1,34 +1,61 @@
-{% extends "base.html" %}
+{% extends 'base_portfolio.html' %}
 {% load static %}
-{% block page_content %}
-<h1>Projects</h1>
-<div class="row">
-{% for project in projects %}
-    <div class="col-md-4">
-        <div class="card mb-2">
 
-
-
-            <img class="card-img-top " src="{% get_media_prefix%}{{project.image}}">
-            <div class="card-body">
-                <h5 class="card-title">{{ project.title }}</h5>
-                <p class="card-text">{{ project.description }}</p>
-                <a href="{% url 'project_detail' project.pk %}"
-                   class="btn btn-primary">
-                    Read More
-                </a>
-                <a href="{% url 'edit_view' project.id %}" class="btn btn-warning" id = '{{project.id}}'>edit</a>
-                <a href="{% url 'destroy_view' project.id %}" class="btn btn-danger" id="{{ project.id }}">delete</a>
-            </div>
-        </div>
-    </div>
-
-    {% endfor %}
-
-
-{{ user_agent.device.family }} <br>
-{{ user_agent.browser }} <br>
-{{ user_agent.os.family   }} <br>
-
-</div>
+{% block title %}
+<title>MyPortfolio - Projects</title>
 {% endblock %}
+
+
+
+
+{% block content %}
+
+
+  <main id="main">
+
+    <!-- ======= Works Section ======= -->
+    <section class="section site-portfolio">
+       <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <h2>Hey, I'm Przemysław Rodzik</h2>
+            <p class="mb-0">Tekst</p>
+          </div>
+          <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+            <div id="filters" class="filters">
+            <a href="#" data-filter="*" class="active">All</a>
+
+                {% for project in projects %}
+
+                     <a href="#" data-filter=".{{project.technology}}">{{project.technology}}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+          {% for project in projects %}
+
+
+
+            <div class="item {{project.technology}} col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="{% url 'project_detail' project.pk %}" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>{{project.title}}</h3>
+                <span>{{ project.technology }}</span>
+              </div>
+              <img class="img-fluid" src="{% get_media_prefix %}{{project.image}}">
+            </a>
+          </div>
+            {% endfor %}
+
+        </div>
+      </div>
+    </section>
+      <!-- End  Works Section -->
+
+
+
+  </main><!-- End #main -->
+
+{% endblock %}
+

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +46,7 @@
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="about.html">About Me</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="works.html">Works</a></li>
+            <li><a href="index.html">Works</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -202,13 +203,13 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="{% static 'vendor/jquery/jquery.min.js'%}"></script>
+  <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

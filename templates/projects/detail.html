@@ -1,23 +1,61 @@
-{% extends "base.html" %}
+{% extends 'base_portfolio.html' %}
 {% load static %}
 
-
-{% block page_content %}
-<h1>{{ selected_project.title }}</h1>
-<div class="row">
-    <div class="col-md-8">
-        <img src="{% get_media_prefix %}{{selected_project.image}}" alt="" width="100%">
-    </div>
-    <div class="col-md-4">
-        <h5>About the project:</h5>
-        <p>{{ selected_project.description }}</p>
-        <br>
-        <h5>Technology used:</h5>
-        <p>{{ selected_project.technology }}</p>
-        {% get_media_prefix %}{{selected_project.image}}
-        {% get_static_prefix %}{{selected_project.image}}
-
-
-    </div>
-</div>
+{% block title %}
+<title>MyPortfolio - Projects detail</title>
 {% endblock %}
+
+
+
+ {% block content %}
+
+
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>Work Single Page</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section pb-0">
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-md-8" data-aos="fade-up">
+              <img src="{% get_media_prefix %}{{selected_project.image}}" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">{{selected_project.title}}</h3>
+                <p class="mb-4"><span class="text-muted">{{selected_project.technology}}</span></p>
+
+                <div class="mb-5">
+                  <p>{{ selected_project.description }}</p>
+
+                </div>
+
+                <h4 class="h4 mb-3">What I did</h4>
+                <ul class="list-unstyled list-line mb-5">
+                  <li>Design</li>
+                  <li>HTML5/CSS3</li>
+                  <li>CMS</li>
+                  <li>Logo</li>
+                </ul>
+
+                <p><a href="#" class="readmore">Visit Website</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+
+ {% endblock %}

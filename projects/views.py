@@ -21,9 +21,6 @@ def dodaj_bazy_view(request):
     return render(request, 'hello.html')
 
 
-def works_view(request):
-    return render(request, 'projects/works.html')
-
 def project_index(request):
     projects = models.Project.objects.all().order_by('created_at').reverse()
 
@@ -81,3 +78,9 @@ def destroy_view(request, project_id):
         return redirect('project_index')
     project_to_delete.delete()
     return redirect('project_index')
+
+
+def about_view(request):
+    return render(request, 'projects/about.html')
+
+

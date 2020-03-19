@@ -15,27 +15,14 @@ def dodaj_bazy_view(request):
         technology='Django',
         image='img/project1.jpg', )
 
-    project2 = models.Project(
-        title='My 2 Project',
-        description='Second development project.',
-        technology='Vue',
-        image='img/project2.jpg')
-    project3 = models.Project(
-        title='My Third Project',
-        description='Third web development project.',
-        technology='php',
-        image='img/project3.jpg')
-    project4 = models.Project(
-        title='My 4 Project',
-        description='4 web development project.',
-        technology='Django',
-        image='img/project4.jpg')
+
     project1.save()
-    # project2.save()
-    # project3.save()
-    # project4.save()
+    
     return render(request, 'hello.html')
 
+
+def works_view(request):
+    return render(request, 'projects/works.html')
 
 def project_index(request):
     projects = models.Project.objects.all().order_by('created_at').reverse()

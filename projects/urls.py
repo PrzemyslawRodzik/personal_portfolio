@@ -18,4 +18,6 @@ urlpatterns = [
     path('edit/<int:id>', views.edit_view, name='edit_view'),
     path('update/<int:id>', views.update_view, name='update_view'),
     path('delete/<int:project_id>', views.destroy_view, name='destroy_view'),
+    path('works', views.works_view),
+
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -27,7 +27,7 @@ SECRET_KEY = 'vbskral(%st6xzyw66v719lm(dk9c@k=!4-a06&_6alk_4l)6n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '192.168.1.106']
+ALLOWED_HOSTS = ['0.0.0.0', '192.168.1.106','127.0.0.1','localhost']
 
 
 # Application definition

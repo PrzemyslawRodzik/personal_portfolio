@@ -22,7 +22,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  
+  font-family: "Inconsolata", monosapce;
+  color: #0d1e2d;
 }
 
 .section {
@@ -497,4 +499,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .social a:hover {
   color: #000;
+}
+
+.customHeader {
+  font-family: "Inconsolata", monosapce;
+  color: #0d1e2d;
 }
